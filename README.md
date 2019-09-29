@@ -1,7 +1,7 @@
 Tabla de países
 ===============
 
-Este repositorio contiene un pequeño script SQL (Probado en MySQL y MaríaDB) con información de países en español.
+Este repositorio contiene un pequeño script SQL  con información de países en español.
 
 ## Descripción de la tabla
 
@@ -16,14 +16,14 @@ iso3166code | smallint(6) | YES | | NULL | |
 ## «`Create`» de la tabla
 
 ```
-CREATE TABLE `paises` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+CREATE TABLE `Country` (
+  `id` int(11)  NOT NULL AUTO_INCREMENT,
   `iso3166code` smallint(6) DEFAULT NULL,
   `iso3166a1` char(2) DEFAULT NULL,
   `iso3166a2` char(3) DEFAULT NULL,
   `nombre` varchar(128) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=241 DEFAULT CHARSET=utf8
+) 
 ```
 
 ## Descripción de columnas
