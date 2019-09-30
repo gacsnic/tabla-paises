@@ -1,7 +1,7 @@
 Tabla de países
 ===============
 
-Este repositorio contiene un pequeño script SQL  con información de países en español.
+Este repositorio contiene script SQL  para crear la table country y agregar información de países en español.
 
 ## Descripción de la tabla
 ### MYSQL
